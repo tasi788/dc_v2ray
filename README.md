@@ -29,3 +29,10 @@ docker run --rm \
     -w="$PWD" \
     docker/compose:1.24.0 up -d
 ```
+
+### fucking east way
+```bash
+wget https://raw.githubusercontent.com/tasi788/dc_v2ray/master/start.sh -O start.sh
+sudo chmod +x start.sh
+sh start.sh
+```
